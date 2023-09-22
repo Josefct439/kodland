@@ -1,5 +1,12 @@
+import random
 
+caracteres = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
 
-variable = ""
+cuantos = int(input("Ingrese la cantiad de caracteres que tendra la contraseña: "))
 
-variable += 
+contrasena = ""
+
+for i in range(cuantos):
+    contrasena += random.choice(caracteres)
+
+print(contrasena)
