@@ -38,4 +38,4 @@ async def roll(ctx, dice: str):
     
 
 
-bot.run("MTE1NzQ0Nzg4MjQ3NjA5MzU3MQ.GsydUa.IFwYIFbfB2g1pBOpr_RDqtzQciuQxGlJliFLxg")
+bot.run("TOKEN")
